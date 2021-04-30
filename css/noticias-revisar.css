@@ -1,0 +1,48 @@
+h2{
+    padding: 15px;
+    background-color: rgb(22, 25, 54);
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.cuerponoticia{
+    width: 100%;
+}
+.tablita button{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+
+.tablita button{
+    background-color: rgb(11, 12, 12) ;
+    padding: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.tablita button{
+    
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #2729da;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px rgb(7, 0, 44);
+      
+}
+.tablita button:active {
+    background-color: #0f1047;
+    box-shadow: 0 5px rgb(4, 0, 20);
+    transform: translateY(4px);
+}

@@ -1,0 +1,29 @@
+.btns-economias{
+    background-color: rgb(0, 0, 94);
+    display: flex;
+    padding: 15px;
+    
+}
+
+.btns-economias input{
+  display: inline-block;
+  padding: 15px 25px ;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #25812a;
+  border: none;
+  margin-left: 40px;
+  
+  border-radius: 15px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btns-economias div{
+    margin-top: 10px;
+   font-size: 30px;
+  }
+

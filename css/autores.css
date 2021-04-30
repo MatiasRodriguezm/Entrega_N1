@@ -1,0 +1,31 @@
+.tablita{
+    display: flex;
+    background-color: rgb(32, 32, 49);
+    width: 80%;
+    margin: 15px;
+    margin-top: 10px;
+    
+}
+.tablita tr{
+    padding: 10px;
+}
+
+
+.tablita tr td img{
+    width: 300px;
+    height: 220px;
+    padding: 10px;
+}
+
+.tablita tr td {
+    color:rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.cuerponoticia h2{
+    margin-top: 60px;
+    font-size: 60px;
+    color: aliceblue;
+    margin-left: 20px ;
+}

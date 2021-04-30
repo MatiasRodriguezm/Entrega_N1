@@ -1,0 +1,59 @@
+
+
+.contenedor1{
+    color: beige;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+.contenedor2{
+    float: right;
+    display: block;
+    color: aqua;
+    margin: 10px red;
+}
+
+.table tr td a{
+    background-color: darkgoldenrod;
+}
+
+.tabla tr td img{
+
+    display: block;
+    margin: auto;
+}
+
+.celdaimagen {
+    text-align: center;
+}
+
+
+.tabla{
+    text-align: center;
+}
+
+.celdaimagen{
+    width: 24%;
+}
+
+
+.titulopagi{
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 34%;
+    padding-top: 15px;
+    
+}
+
+
+.titulopagi h2{
+    color: navajowhite;
+    background-color: rgb(13, 13, 44);
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid 5px red;
+    border-radius: 8px 8px 8px 8px;
+    
+}

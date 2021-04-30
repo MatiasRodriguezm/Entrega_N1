@@ -1,0 +1,49 @@
+#banner img{
+    width: 100%;
+}
+
+#banner .contenedor{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#banner .titulo{
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+}
+
+
+#banner .descripcion{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.75em;
+    max-width: 100%;
+    margin-bottom: 1.25em;
+    left: 10%;
+}
+
+
+
+
+#banner .boton{
+    background: rgba(235, 235, 235, 0.5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #ffffff;
+    margin-right: 1.25em;
+    cursor:pointer;
+    transition: .2s ease all;
+    font-size: 1.12em;
+}
+
+
+#banner .boton:hover{
+    background: rgb(44, 44, 44);
+    cursor: rgb(247, 245, 245);
+}

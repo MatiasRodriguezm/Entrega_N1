@@ -1,0 +1,44 @@
+.container{
+    padding: 10px;
+    background-color: darkgrey;
+    margin-top: 80px;
+}
+
+.header{
+    margin-top: 10px;
+}
+.header h2{
+    color: rgb(80, 48, 7);
+}
+
+.navegacion{
+    color: rgb(0, 0, 0);
+}
+
+.contenido p{
+    color: black;
+}
+
+#carouselExampleIndicators{
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.imagen-portada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.imagen-portada img{
+    height: 440px;
+    width: 800px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+
+

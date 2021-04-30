@@ -1,0 +1,245 @@
+body{
+    background-color: rgb(61, 61, 61);
+}
+
+
+.titulopag{
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 30%;
+    padding-top: 15px;
+    
+}
+
+
+.titulopag h2{
+    color: navajowhite;
+    background-color: rgb(13, 13, 44);
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid 5px red;
+    border-radius: 8px 8px 8px 8px;
+    
+}
+
+.imgnoticia{
+    height: 150px;
+    width: 300px; 
+}
+
+.piepagina{
+    background-color: rgb(0, 0, 0);
+    color: oldlace;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contato-pie p{
+    border-top: 0px;
+    color: olivedrab;
+}
+
+
+#imagenes img {
+    max-width: 200px;
+  }
+
+
+.filtro label{
+    padding: 10px;
+    background-color: rgb(41, 75, 75);
+    color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50%;
+    margin: 12px;
+    
+}
+
+#imagenes{
+    background-color: rgb(32, 32, 49);
+    width: 80%;
+    
+    margin-bottom: 10px;
+    padding: 10px;
+    
+    
+}
+
+#imagenes img{
+    margin-top: 20px;
+    margin-left: 20px ;
+    
+    
+}
+
+
+
+#imagenes p{
+    margin-left: 20px;
+    padding: 10px;
+    color: blanchedalmond;
+    font-size: 20px;
+    
+    
+    
+}
+
+#imagenes p{
+    margin-top: 20px;
+    background-color: rgb(69, 67, 85);
+    width: 92%;
+    margin-bottom: 10px;
+    margin-right:  50px;
+   
+}
+
+
+
+
+
+#cine:checked ~ #imagenes .deporte ,#cine:checked ~ #imagenes .musica, #cine:checked ~ #imagenes .arte ,#cine:checked ~ #imagenes .crimen,#cine:checked ~ #imagenes .farandula ,#cine:checked ~ #imagenes .economia {
+      display: none;
+  }
+
+#arte:checked ~ #imagenes .deporte ,#arte:checked ~ #imagenes .musica, #arte:checked ~ #imagenes .cine ,#arte:checked ~ #imagenes .crimen,#arte:checked ~ #imagenes .farandula ,#arte:checked ~ #imagenes .economia{
+    display: none;
+}
+
+#deporte:checked ~ #imagenes .crimen ,#deporte:checked ~ #imagenes .musica ,#deporte:checked ~ #imagenes .arte ,#deporte:checked ~ #imagenes .cine, #deporte:checked ~ #imagenes .farandula ,#deporte:checked ~ #imagenes .economia  {
+    display: none;
+}
+
+#crimen:checked ~ #imagenes .deporte,#crimen:checked ~ #imagenes .musica  , #crimen:checked ~ #imagenes .arte ,#crimen:checked ~ #imagenes .cine,#crimen:checked ~ #imagenes .farandula ,#crimen:checked ~ #imagenes .economia {
+    display: none;
+}
+
+#farandula:checked ~ #imagenes .deporte , #farandula:checked ~ #imagenes .arte ,#farandula:checked ~ #imagenes .cine,#farandula:checked ~ #imagenes .crimen ,#farandula:checked ~ #imagenes .musica ,#farandula:checked ~ #imagenes .economia {
+    display: none;
+}
+
+#musica:checked ~ #imagenes .deporte , #musica:checked ~ #imagenes .arte ,#musica:checked ~ #imagenes .cine,#musica:checked ~ #imagenes .crimen ,#musica:checked ~ #imagenes .farandula ,#musica:checked ~ #imagenes .economia{
+    display: none;
+}
+
+#economia:checked ~ #imagenes .deporte , #economia:checked ~ #imagenes .arte ,#economia:checked ~ #imagenes .cine,#economia:checked ~ #imagenes .crimen ,#economia:checked ~ #imagenes .farandula ,#economia:checked ~ #imagenes .musica  {
+    display: none;
+}
+
+
+body{
+    background-color: rgb(61, 61, 61);
+}
+
+
+.titulopag{
+    text-align: center;
+    padding-left: 30%;
+    padding-top: 15px;
+
+}
+
+
+.titulopag h2{
+    color: navajowhite;
+    background-color: rgb(13, 13, 44);
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid 5px red;
+    border-radius: 8px 8px 8px 8px;
+
+}
+
+.tabla{
+    
+    width: 80%;
+    padding-left: 200px;
+}
+
+
+.tabla td {
+    padding: 10px;
+    
+
+}
+
+.tabla td h4{
+    color: seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.imgnoticia{
+    height: 150px;
+    width: 300px; 
+}
+
+.piepagina{
+    background-color: rgb(0, 0, 0);
+    color: oldlace;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contato-pie p{
+    border-top: 0px;
+    color: olivedrab;
+}
+ 
+
+.tags{
+    text-align: center;
+    padding-left: 30%;
+    padding-top: 15px;
+    
+}
+
+
+.tags h2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 94);
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid 5px rgb(241, 241, 241);
+    
+}
+
+#imagenes .cine{
+    display: flex;
+}
+
+
+#imagenes .arte{
+    display: flex;
+}
+
+
+#imagenes .deporte{
+    display: flex;
+}
+
+
+#imagenes .crimen{
+    display: flex;
+}
+
+
+#imagenes .musica{
+    display: flex;
+}
+
+
+#imagenes .farandula{
+    display: flex;
+}
+
+#imagenes .musica p , img{
+    display: flex;
+}
+
+
+#imagenes .economia{
+    display: flex;
+}

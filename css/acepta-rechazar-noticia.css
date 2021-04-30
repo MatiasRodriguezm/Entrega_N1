@@ -1,0 +1,74 @@
+.acpetar-rechazar h2{
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 15px;
+ }
+
+ .acpetar-rechazar .botones{
+    text-align: center;
+    padding: 15px;
+ }
+
+ .acpetar-rechazar .botones button{
+    text-align: center;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+ }
+
+.acpetar-rechazar .rec{
+        width: 20%;
+    
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #bb0404;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px rgb(37, 36, 36);
+      
+}
+.acpetar-rechazar  .rec:active {
+    background-color: #2c0909;
+    box-shadow: 0 5px rgb(37, 36, 36);
+    transform: translateY(4px);
+}
+
+.acpetar-rechazar  .acep{
+        width: 20%;
+    
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #19c414;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(37, 36, 36);
+  
+}
+.acpetar-rechazar  .acep:active {
+background-color: #0c3d13;
+box-shadow: 0 5px rgb(37, 36, 36);
+transform: translateY(4px);
+}
+
+#formulario{
+    text-align: center;
+}
+.contenedor-input .botones{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+}
